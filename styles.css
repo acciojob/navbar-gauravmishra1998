@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	background-color:#6e072d;
+	color:white;
+}
+.row1>li{
+	font-size:18px;
+	padding-top:18px;
+	padding-bottom:18px;
+	padding-left:27px;
+	padding-right:27px;
+	border-right:transparent;
+		border-right: 2px solid white;
+}
+.none{
+	border:none;
+}
+.row2>li{
+	font-size:18px;
+	padding-top:18px;
+	padding-bottom:18px;
+	padding-left:27px;
+	padding-right:27px;
+	border-right: 2px solid white;
+}
+.row1{
+	display:flex;
+	list-style-type:none;
+}
+.row2{
+	display:flex;
+	list-style-type:none;
+}
+li:hover{
+	color:#b90e4d;
+cursor:pointer;
+}
