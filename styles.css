@@ -3,6 +3,7 @@
 	display:flex;
 	background-color:#6e072d;
 	color:white;
+	justify-content:space-between;
 }
 .row1>li{
 	font-size:18px;
