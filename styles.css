@@ -33,7 +33,10 @@
 	display:flex;
 	list-style-type:none;
 }
+li{
+	cursor:pointer;
+}
 li:hover{
 	color:#b90e4d;
-cursor:pointer;
+cursor:pointer ;
 }
